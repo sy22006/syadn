@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/tv_friend_name"
+        style="@style/Smile.TextView._Black"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="6.0dip"
+        android:padding="5dp"
+        android:text="冯方法反复反反复复发发发发发发发发发"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/alpha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_friend_name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="6.0dip"
+        android:padding="5dp"
+        android:text="冯方法反复反反复复发发发发发发发发发"
+        android:textColor="@color/guide_color"
+        android:textSize="12sp" />
+
+<!--     <CheckBox
+        android:id="@+id/check_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        /> -->
+    <ImageView
+        android:id="@+id/check_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/check_no" />
+
+</RelativeLayout>
